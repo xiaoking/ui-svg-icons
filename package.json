@@ -1,0 +1,41 @@
+{
+  "name": "ui-svg-icons",
+  "version": "0.1.0",
+  "description": "svg icons for react",
+  "main": "./dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "rm -rf dist",
+    "babel": "./node_modules/.bin/babel --stage 1 ./src --out-dir ./dist",
+    "prepublish": "npm run clear && npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoking/ui-svg-icons.git"
+  },
+  "keywords": [
+    "svg-icon",
+    "react",
+    "ui",
+    "ui-svg-icon",
+    "eagle-ui",
+    "eagle",
+    "unicorn",
+    "unicorn-ui"
+  ],
+  "author": "min.xiao@dianping.com",
+  "license": "MIT",
+  "dependencies": {
+    "object-assign": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.13"
+  },
+  "devDependencies": {
+    "babel": "^5.4.4"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoking/ui-svg-icons/issues"
+  },
+  "homepage": "https://github.com/xiaoking/ui-svg-icons"
+}

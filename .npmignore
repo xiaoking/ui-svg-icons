@@ -1,3 +1,4 @@
+# Created by .ignore support plugin (hsz.mobi)
 # Cortex
 neurons
 
@@ -42,4 +43,5 @@ thumbs.db
 node_modules/
 jscoverage_lib/
 example/
-bower_components/
+src/
+test/
