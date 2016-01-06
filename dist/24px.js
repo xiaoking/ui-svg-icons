@@ -13,10 +13,10 @@ var SvgIcon = React.createClass({
 
     getDefaultStyle: function getDefaultStyle(fill) {
         return {
-            display: 'inline-block',
-            height: '24px',
-            width: '24px',
-            fill: undefined == fill ? 'initial' : fill
+            display: 'inline-block' /*,
+                                    height: '24px',
+                                    width: '24px',
+                                    fill: (undefined == fill) ? 'initial' : fill*/
         };
     },
 
