@@ -1,13 +1,13 @@
 {
   "name": "ui-svg-icons",
-  "version": "0.1.1",
+  "version": "2.0.1",
   "description": "svg icons for react",
   "main": "./dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clear": "rm -rf dist",
-    "babel": "./node_modules/.bin/babel --stage 1 ./src --out-dir ./dist",
-    "prepublish": "npm run clear && npm run babel"
+    "babel": "./node_modules/.bin/babel  src/ --out-dir dist/",
+    "prepublish": " npm run babel"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,12 @@
     "react": ">=0.13"
   },
   "devDependencies": {
-    "babel": "^5.4.4"
+    "babel": "^6.0.15",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^5.8.23",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0"
   },
   "bugs": {
     "url": "https://github.com/xiaoking/ui-svg-icons/issues"

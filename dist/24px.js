@@ -11,6 +11,7 @@ var React = require('react'),
 var SvgIcon = React.createClass({
     displayName: 'SvgIcon',
 
+
     getDefaultStyle: function getDefaultStyle(fill) {
         return {
             display: 'inline-block' /*,
